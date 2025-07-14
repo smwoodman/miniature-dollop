@@ -1,9 +1,9 @@
 # miniature-dollop
-dev ESD viame-coco work
+Development ESD Optics work. Work incldues viame-coco work, and semgenting via the T-MSER method.
 
-Will be moved to permanent repo once exploration is done and the code is getting stable
+Code here Will be moved to permanent repo once exploration is done, and the code is stable (or becoming stable).
 
-## Process
+## VIAME-COCO Process
 
 The current process:
 
@@ -20,6 +20,14 @@ amlr08-20220513: Directories Dir0000, Dir0001, Dir0002, Dir0003, Dir0004, Dir000
 george-20240530: Dir0000, Dir0001 (partial)
 
 george-20240907: 
+
+## T-MSER Segmentation
+
+July 2025: JW/SW are testing using the T-MSER segmentation method on shadowgraph imagery, to speed the work of building an ESD-specific shadowgraph image library. This is in place of (or in addition to) by-hand annotation by JW. 
+
+The current segmentation tool is at [sullichrosu/Threshold-MSER](https://github.com/sullichrosu/Threshold-MSER). CS made this repo because the author of the original [paradom/Threshold-MSER](https://github.com/paradom/Threshold-MSER) was not responding at the time for update requests. Sam made a fork at [smwoodman/Threshold-MSER](https://github.com/smwoodman/Threshold-MSER), to add .jpg as valid file extension recognized by the tool. (Note that this fork was based off previous work done by Sam in the [us-amlr/Threshold-MSER](https://github.com/us-amlr/Threshold-MSER) fork.)
+
+This tool has been installed on the tmser-dev Notebook. SMW is using the TODO python script, as a wrapper for running the tmser tool and organizing the outputs.
 
 ## Disclaimer
 
